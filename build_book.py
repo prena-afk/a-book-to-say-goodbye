@@ -8,6 +8,8 @@ ROOT = Path(__file__).parent
 MD_FILE = ROOT / "A Book to Say Goodbye.md"
 OUT_FILE = ROOT / "js" / "book-data.js"
 
+AUTHOR_BYLINE = "Written by: Prena Dhomeja (Seth Piru, everyone called me, including you)"
+
 WORDS_PER_PAGE = 115
 MIN_WORDS_BEFORE_BREAK = 80
 
@@ -141,19 +143,25 @@ def block_to_html(block: dict) -> str:
         return f'<blockquote class="{cls}">{inner}</blockquote>'
 
     if t == "label":
-        return f'<p class="quote-label">{md_inline(block["text"])}</p>'
+        text = block["text"]
+        if text.startswith("Written by:"):
+            return f'<p class="author-highlight">{md_inline(text)}</p>'
+        return f'<p class="quote-label">{md_inline(text)}</p>'
 
     if t == "paragraph":
         text = block["text"]
-        text = md_inline(text)
+        text_html = md_inline(text)
+        plain = re.sub(r"<[^>]+>", "", text)
+        if plain.startswith("Written by:"):
+            return f'<p class="author-highlight">{text_html}</p>'
         urdu = is_urdu_text(text)
-        if urdu and text.startswith("<em>") and text.endswith("</em>"):
-            return f'<p class="transliteration">{text}</p>'
+        if urdu and text_html.startswith("<em>") and text_html.endswith("</em>"):
+            return f'<p class="transliteration">{text_html}</p>'
         if urdu:
-            plain = re.sub(r"<[^>]+>", "", text)
+            plain = re.sub(r"<[^>]+>", "", text_html)
             if is_urdu_text(plain):
                 return f'<p class="urdu-text" dir="rtl" lang="ur">{plain}</p>'
-        return f"<p>{text}</p>"
+        return f"<p>{text_html}</p>"
 
     return ""
 
@@ -187,7 +195,8 @@ def paginate(blocks: list[dict]) -> list[dict]:
             "chapter": "Cover",
             "title": "A Book to Say Goodbye",
             "subtitle": "A memoir of love, silence, and choosing yourself",
-            "author": "Prena Dhomwja",
+            "author": "Prena Dhomeja",
+            "authorByline": AUTHOR_BYLINE,
             "dedication": [
                 "For the version of me who stayed too long.",
                 "For the version of me who is finally leaving with grace.",
@@ -205,7 +214,7 @@ def paginate(blocks: list[dict]) -> list[dict]:
                 '<p class="lede">This is not a book about anger.</p>'
                 "<p>It is an account of loving someone who slowly stopped choosing me, "
                 "and of choosing myself when the silence became louder than every promise ever made.</p>"
-                '<p class="signature">Written by Prena Dhomwja<br>In the quiet hours after midnight.<br>July 24</p>'
+                f'<p class="author-highlight signature">{AUTHOR_BYLINE}<br>In the quiet hours after midnight.<br>July 24</p>'
             ),
         }
     )
@@ -275,7 +284,7 @@ def paginate(blocks: list[dict]) -> list[dict]:
                 "<p>That is not the end of love.<br>It is the beginning of loving correctly.</p>"
                 '<p class="alvida" dir="rtl" lang="ur">الوداع</p>'
                 '<p class="back-note">You were never too much.<br>You were simply too much for someone who was not enough.</p>'
-                '<p class="cover-author">Written by Prena Dhomwja</p>'
+                f'<p class="author-highlight cover-author">{AUTHOR_BYLINE}</p>'
             ),
         }
     )

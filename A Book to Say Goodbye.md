@@ -1,6 +1,6 @@
 # A Book to Say Goodbye
 
-*Written by Prena Dhomwja*
+*Written by: Prena Dhomeja (Seth Piru, everyone called me, including you)*
 
 *For the version of me who stayed too long.*  
 *For the version of me who is finally leaving with grace.*
@@ -339,4 +339,4 @@ Sometimes saying goodbye is not proof that you loved less. It is proof that you 
 
 ---
 
-*Written by Prena Dhomwja.*
+*Written by: Prena Dhomeja (Seth Piru, everyone called me, including you).*

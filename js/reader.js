@@ -65,7 +65,7 @@
           <h1>${escapeHtml(page.title)}</h1>
           <div class="cover-ornament"></div>
           <p class="cover-subtitle">${escapeHtml(page.subtitle || "")}</p>
-          <p class="cover-author">Written by ${escapeHtml(page.author || "")}</p>
+          <p class="author-highlight cover-author">${escapeHtml(page.authorByline || page.author || "")}</p>
           <div class="cover-dedication">${dedication}</div>
         </div>
       `;

@@ -98,7 +98,30 @@ body.night-mode {
 .toolbar-author {
   font-size: 0.78rem;
   color: var(--ink-soft);
-  font-style: italic;
+  font-style: normal;
+  max-width: 22rem;
+  line-height: 1.45;
+}
+
+.author-highlight {
+  display: inline-block;
+  padding: 0.55rem 0.9rem;
+  background: rgba(255, 249, 240, 0.95);
+  border: 1px solid rgba(212, 165, 154, 0.45);
+  border-radius: 10px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8) inset;
+  color: var(--accent-deep);
+  font-family: var(--font-display);
+  font-size: 0.98rem;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+body.night-mode .author-highlight {
+  background: rgba(255, 239, 225, 0.12);
+  border-color: rgba(212, 165, 154, 0.35);
+  color: #f0dccf;
+  box-shadow: none;
 }
 
 body.night-mode .toolbar-meta {
@@ -413,12 +436,13 @@ body.night-mode .cover-page h1 {
 }
 
 .cover-author {
-  margin: 0.6rem 0 0;
-  font-family: var(--font-display);
-  font-size: 1.05rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--accent-deep);
+  margin: 0.8rem 0 0;
+  max-width: 26rem;
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  font-size: 0.95rem;
+  line-height: 1.55;
 }
 
 .cover-dedication {
