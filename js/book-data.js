@@ -46,7 +46,7 @@ window.BOOK_PAGES = [
   {
     "type": "content",
     "chapter": "The Beginning",
-    "html": "<p>I remember everything.</p><p>Not just the big moments. The small ones too.</p><p>We met once. You picked me up from my office. I remember that day clearly.</p><p>We spent three to four hours at Port Grand. The time did not feel long. It felt like it belonged to us.</p><p>I remember when I was going home. I told you, <em>\"Main wapas ja rahi thi\"</em>. I was leaving. And you said, <em>\"Haan, tu wapas ja rahi thi\"</em>. Yes, you were leaving. Such a small conversation. But I still carry it.</p>",
+    "html": "<p>I remember everything.</p><p>Not just the big moments. The small ones too.</p><p>We met once. You picked me up from my office. I remember that day clearly.</p><p>We spent three to four hours at Port Grand. The time did not feel long. It felt like it belonged to us.</p><p>I remember when I was going home. I told you, <em>\"arun aaun wanjyen ti\"</em>. I was leaving. And you said, <em>\"ha tu wanjen ti\"</em>. Yes, you were leaving. Such a small conversation. But I still carry it.</p>",
     "index": 6,
     "total": 40
   },

@@ -46,7 +46,7 @@ We met once. You picked me up from my office. I remember that day clearly.
 
 We spent three to four hours at Port Grand. The time did not feel long. It felt like it belonged to us.
 
-I remember when I was going home. I told you, *"Main wapas ja rahi thi"*. I was leaving. And you said, *"Haan, tu wapas ja rahi thi"*. Yes, you were leaving. Such a small conversation. But I still carry it.
+I remember when I was going home. I told you, *"arun aaun wanjyen ti"*. I was leaving. And you said, *"ha tu wanjen ti"*. Yes, you were leaving. Such a small conversation. But I still carry it.
 
 Before New Zealand, we met in the morning. I had a standup meeting at work. I knew I had to attend. I did not. I chose you instead. That is who I was with you. You first. Always.
 
