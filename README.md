@@ -32,6 +32,30 @@ python build_book.py
 
 Then refresh the browser.
 
+## Publish to GitHub
+
+This folder is already a git repo with an initial commit on `main`.
+
+1. Log in to GitHub (one time):
+
+```powershell
+gh auth login
+```
+
+2. Create the repo and push:
+
+```powershell
+.\publish.ps1
+```
+
+Or manually:
+
+```powershell
+gh repo create a-book-to-say-goodbye --public --source=. --remote=origin --push --description "A Book to Say Goodbye by Prena Dhomwja"
+```
+
+To host the book online, turn on **GitHub Pages** for the repo and set the source to the `main` branch root. Then open `https://YOUR_USERNAME.github.io/a-book-to-say-goodbye/`.
+
 ## Share or gift it
 
 Copy the whole folder:
