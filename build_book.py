@@ -214,7 +214,7 @@ def paginate(blocks: list[dict]) -> list[dict]:
                 '<p class="lede">This is not a book about anger.</p>'
                 "<p>It is an account of loving someone who slowly stopped choosing me, "
                 "and of choosing myself when the silence became louder than every promise ever made.</p>"
-                f'<p class="author-highlight signature">{AUTHOR_BYLINE}<br>In the quiet hours after midnight.<br>July 24</p>'
+                '<p class="signature">In the quiet hours after midnight.<br>July 24</p>'
             ),
         }
     )
@@ -284,7 +284,6 @@ def paginate(blocks: list[dict]) -> list[dict]:
                 "<p>That is not the end of love.<br>It is the beginning of loving correctly.</p>"
                 '<p class="alvida" dir="rtl" lang="ur">الوداع</p>'
                 '<p class="back-note">You were never too much.<br>You were simply too much for someone who was not enough.</p>'
-                f'<p class="author-highlight cover-author">{AUTHOR_BYLINE}</p>'
             ),
         }
     )

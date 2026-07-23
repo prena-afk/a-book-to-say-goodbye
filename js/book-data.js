@@ -17,21 +17,21 @@ window.BOOK_PAGES = [
     "type": "title-page",
     "chapter": "Front Matter",
     "title": "A Book to Say Goodbye",
-    "html": "<p class=\"lede\">This is not a book about anger.</p><p>It is an account of loving someone who slowly stopped choosing me, and of choosing myself when the silence became louder than every promise ever made.</p><p class=\"author-highlight signature\">Written by: Prena Dhomeja (Seth Piru, everyone called me, including you)<br>In the quiet hours after midnight.<br>July 24</p>",
+    "html": "<p class=\"lede\">This is not a book about anger.</p><p>It is an account of loving someone who slowly stopped choosing me, and of choosing myself when the silence became louder than every promise ever made.</p><p class=\"signature\">In the quiet hours after midnight.<br>July 24</p>",
     "index": 2,
     "total": 40
   },
   {
     "type": "content",
     "chapter": "Front Matter",
-    "html": "<p><em>Written by: Prena Dhomeja (Seth Piru, everyone called me, including you)</em></p><p><em>For the version of me who stayed too long.</em> <em>For the version of me who is finally leaving with grace.</em></p><h2 class=\"section-heading\">A Note Before You Begin</h2><p>This is not a book about anger.</p><p>It is about loving someone who slowly stopped choosing me, and finally choosing myself.</p><p>I am writing this book after noticing everything. After the silence. After the waiting. After seeing your words but not your actions. After understanding that I was holding on to something that was already gone.</p><p>I wrote this late at night, alone, when my heart was tired but my eyes were finally open.</p>",
+    "html": "<p><em>For the version of me who stayed too long.</em> <em>For the version of me who is finally leaving with grace.</em></p><h2 class=\"section-heading\">A Note Before You Begin</h2><p>This is not a book about anger.</p><p>It is about loving someone who slowly stopped choosing me, and finally choosing myself.</p><p>I am writing this book after noticing everything. After the silence. After the waiting. After seeing your words but not your actions. After understanding that I was holding on to something that was already gone.</p><p>I wrote this late at night, alone, when my heart was tired but my eyes were finally open.</p><p>If you are reading this, I hope you understand.</p>",
     "index": 3,
     "total": 40
   },
   {
     "type": "content",
     "chapter": "Front Matter",
-    "html": "<p>If you are reading this, I hope you understand.</p><p class=\"quote-label\">Please, after reading this book, do not ever try to contact me.</p><p>I am done with waiting. I am done with expecting. I am leaving you.</p><p>I hope you find someone better in life. I mean that.</p><p>I hope I become successful in my life. That is what I am working toward now.</p><p>Maybe one day, when I am successful, you will try to reach out to me.</p><p>But at that time, I will have no time for you.</p><p>I wish that happens.</p><p>This is my goodbye. Not to love. To staying where I was not chosen.</p>",
+    "html": "<p class=\"quote-label\">Please, after reading this book, do not ever try to contact me.</p><p>I am done with waiting. I am done with expecting. I am leaving you.</p><p>I hope you find someone better in life. I mean that.</p><p>I hope I become successful in my life. That is what I am working toward now.</p><p>Maybe one day, when I am successful, you will try to reach out to me.</p><p>But at that time, I will have no time for you.</p><p>I wish that happens.</p><p>This is my goodbye. Not to love. To staying where I was not chosen.</p>",
     "index": 4,
     "total": 40
   },
@@ -282,14 +282,14 @@ window.BOOK_PAGES = [
   {
     "type": "content",
     "chapter": "The Goodbye Letter",
-    "html": "<blockquote class=\"pull-quote urdu-quote\">کبھی کبھی الوداع کہنا<br>محبت کم کرنے کا نہیں.<br>خود سے محبت کرنے کا ثبوت ہوتا ہے۔</blockquote><p><em>Kabhi kabhi alvida kehna mohabbat kam karne ka nahin. Khud se mohabbat karne ka saboot hota hai.</em></p><p>Sometimes saying goodbye is not proof that you loved less. It is proof that you finally learned to love yourself.</p><p><em>Written by: Prena Dhomeja (Seth Piru, everyone called me, including you).</em></p>",
+    "html": "<blockquote class=\"pull-quote urdu-quote\">کبھی کبھی الوداع کہنا<br>محبت کم کرنے کا نہیں.<br>خود سے محبت کرنے کا ثبوت ہوتا ہے۔</blockquote><p><em>Kabhi kabhi alvida kehna mohabbat kam karne ka nahin. Khud se mohabbat karne ka saboot hota hai.</em></p><p>Sometimes saying goodbye is not proof that you loved less. It is proof that you finally learned to love yourself.</p>",
     "index": 39,
     "total": 40
   },
   {
     "type": "back-cover",
     "chapter": "End",
-    "html": "<p class=\"back-quote\">Choose yourself.</p><p>That is not the end of love.<br>It is the beginning of loving correctly.</p><p class=\"alvida\" dir=\"rtl\" lang=\"ur\">الوداع</p><p class=\"back-note\">You were never too much.<br>You were simply too much for someone who was not enough.</p><p class=\"author-highlight cover-author\">Written by: Prena Dhomeja (Seth Piru, everyone called me, including you)</p>",
+    "html": "<p class=\"back-quote\">Choose yourself.</p><p>That is not the end of love.<br>It is the beginning of loving correctly.</p><p class=\"alvida\" dir=\"rtl\" lang=\"ur\">الوداع</p><p class=\"back-note\">You were never too much.<br>You were simply too much for someone who was not enough.</p>",
     "index": 40,
     "total": 40
   }
