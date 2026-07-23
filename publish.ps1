@@ -16,7 +16,7 @@ if ($LASTEXITCODE -ne 0) {
 }
 
 $repoName = "a-book-to-say-goodbye"
-$exists = & $gh repo view $repoName 2>$null
+$view = & $gh repo view $repoName 2>&1
 if ($LASTEXITCODE -ne 0) {
     & $gh repo create $repoName `
         --public `

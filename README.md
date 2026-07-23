@@ -56,6 +56,31 @@ gh repo create a-book-to-say-goodbye --public --source=. --remote=origin --push 
 
 To host the book online, turn on **GitHub Pages** for the repo and set the source to the `main` branch root. Then open `https://YOUR_USERNAME.github.io/a-book-to-say-goodbye/`.
 
+## Deploy on Vercel
+
+### Option A: From GitHub (easiest)
+
+1. Go to [vercel.com/new](https://vercel.com/new)
+2. Sign in with GitHub
+3. Import **`prena-afk/a-book-to-say-goodbye`**
+4. Leave settings as default (no build command needed)
+5. Click **Deploy**
+
+Your book will be live at a URL like `https://a-book-to-say-goodbye.vercel.app`
+
+### Option B: From your computer
+
+```powershell
+cd "c:\Users\Admin\Desktop\A book"
+npx vercel
+```
+
+Follow the prompts to log in. For production:
+
+```powershell
+npx vercel --prod
+```
+
 ## Share or gift it
 
 Copy the whole folder:
