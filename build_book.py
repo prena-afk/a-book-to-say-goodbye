@@ -282,7 +282,6 @@ def paginate(blocks: list[dict]) -> list[dict]:
             "html": (
                 '<p class="back-quote">Choose yourself.</p>'
                 "<p>That is not the end of love.<br>It is the beginning of loving correctly.</p>"
-                '<p class="alvida" dir="rtl" lang="ur">الوداع</p>'
                 '<p class="back-note">You were never too much.<br>You were simply too much for someone who was not enough.</p>'
             ),
         }
