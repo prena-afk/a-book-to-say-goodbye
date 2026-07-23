@@ -275,6 +275,20 @@ That hope is not about you. It is about me.
 
 ---
 
+I have experienced love. I know what love looks like.
+
+But at that time, I was not ready.
+
+Now I guess the same thing is happening to me. Like I did once, someone is doing to me now. So yeah. I understand it better now.
+
+I do not have any regrets.
+
+Life is like a train. People are like passengers. Some stay for a long time. Some get off at the next stop. Not everyone is meant to ride with you till the end.
+
+That is not cruelty. That is life.
+
+---
+
 ### Epilogue
 #### The Final Goodbye
 
